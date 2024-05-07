@@ -1,3 +1,57 @@
+<<<<<<< HEAD
+/* * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .wrapper {
+    display: flex;
+    background-color: black;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .item-1 {
+    position: relative;
+    top: 140px;
+    left: 669.75px;
+    background-color: black;
+    flex-basis: 300px;
+  }
+
+  .item-2 {
+    position: relative;
+    top: 140px;
+    left: 922.5px;
+    background-color: black;
+    flex-basis: 300px;
+  }
+
+  .item-3 {
+    position: relative;
+    top: 140px;
+    left: 1175.25px;
+    background-color: black;
+    flex-basis: 300px;
+  }
+
+  .item-4 {
+    position: relative;
+    top: 140px;
+    left: 1428px;
+    background-color: black;
+    flex-basis: 300px;
+  } */
+=======
 /* @media only screen and (max-width: 600px) {
 
     main {
@@ -144,3 +198,4 @@ html {
         padding-bottom: 20px;
      }
 }
+>>>>>>> origin/main
