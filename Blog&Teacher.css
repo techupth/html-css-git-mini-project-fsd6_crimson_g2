@@ -3,9 +3,6 @@
   margin: 0;
 }
 
-section.blog {
-}
-
 .blog-container {
   background-color: rgba(255, 251, 244, 1);
   display: flex;
@@ -83,11 +80,12 @@ section.blog {
   font-family: "Rubik", sans-serif;
   font-size: 12px;
   width: 154px;
-  height: 50px;
+  height: 55px;
   border-radius: 15px;
   margin: 48px;
   padding: 20px;
   box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+  text-align: center;
 }
 
 .blog-content-detail > h3 {
@@ -197,7 +195,7 @@ section.teacher {
   font-family: "Rubik", sans-serif;
   font-size: 12px;
   width: 154px;
-  height: 50px;
+  height: 55px;
   border-radius: 15px;
   margin: 48px;
   padding: 20px;
