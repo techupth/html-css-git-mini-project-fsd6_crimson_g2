@@ -14,6 +14,7 @@
 }
 
 .blog-header {
+  margin: 0 80px;
   color: rgba(17, 17, 22, 1);
   font-family: "Poppins", sans-serif;
   font-size: 36px;
@@ -116,7 +117,7 @@
 .teacher-header {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+  padding: 100px 300px;
 }
 
 .teacher-header-text {
@@ -213,6 +214,10 @@
     font-size: 24px;
   }
 
+  .blog-container {
+    margin: 0;
+    }
+
   section.teacher {
     padding: 0;
   }
@@ -229,8 +234,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 10px;
+    padding: 20px;
   }
+  
   .teacher-btn {
     margin: 20px;
   }
