@@ -85,19 +85,19 @@
   }
 
   .blue {
-    left: 0;
+    left: -10px;
     width: 296.34px;
     height: 296.34px;
   }
 
   .yellow {
     bottom: 20px;
-    left: 80px;
+    left: 120px;
   }
 
   .white {
-    top: 200px;
-    right: 0px;
+    top: 220px;
+    right: -30px;
   } /* .blue {
     width: 296.34px;
     height: 296.34px;
