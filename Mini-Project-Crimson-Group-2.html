@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stylefooter.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     
     <script
@@ -39,9 +40,9 @@
 
     <body>
     <!-- Section 1 Pond -->
-    <section class="p-0 m-0 box-border bg-gradient-to-r from-[#FFFBF4] to-[#F7FCF9] mb-[5px] w-[1920px] h-[960px] ">
+    <header class="p-0 m-0 box-border bg-gradient-to-r from-[#FFFBF4] to-[#F7FCF9] mb-[5px] w-screen h-screen] ">
       <div class="flex justify-center relative">
-        <nav class="flex flex-row justify-start items-center w-[1920px] h-[140px] relative">
+        <nav class="flex flex-row justify-start items-center w-screen h-[140px] relative">
           <a href="#"><img class=" ml-[200px] w-[130px] h-[73px]"
               src="./Logo.png" alt="Logo"></a>
           <div id="nav-icon" class="flex flex-row justify-center items-center  gap-6 text-[18px] font-medium">
@@ -57,11 +58,10 @@
                   <img id="menu" class="w-[24px] h-[24px] hidden "
                     src="./Category.png" alt="O4">
           </div>
-
         </nav>
       </div>
 
-      <main class="flex justify-center w-[1920px]">
+      <div id="content-header" class="flex justify-center w-[1920px]">
         <div id="flex" class="flex flex-wrap  flex-row w-[566] h-[492] pl-[100px] pr-[100px]">
           <div id="title" id="flex-1"
             class="flex flex-col justify-center items-center w-[860px] h-[960px] relative left-[60px]">
@@ -80,7 +80,7 @@
               More</button>
           </div>
           <div id="flex-2"
-            class="flex flex-1 flex-col justify-center items-center w-[777px] h-[675px] relative right-[150px] ">
+            class="flex flex-1 flex-col justify-center items-center w-[777px] h-[675px] relative right-[150px]">
             <img id="pic-1" class="w-[674.26px] h-[675.33] absolute z-2"
               src="./O.png" alt="background">
             <img id="pic-2" class="w-[777px] h-[198px] absolute top-[380px] z-3"
@@ -103,14 +103,12 @@
             </div>
           </div>
         </div>
-      </main>
-    </section>
-
-
+      </div>/>
+    </header>
 
 
     <!-- Section Noon -->
-    <div class="mb-32">
+    <div class="mb-10">
       <h2 class="text-center text-4xl font-bold p-16">Trusted Companies</h2>
       <div class="box1 flex justify-center flex-wrap">
         <div><img class="pic1 h-14" src="./Item (2).png" alt="martomi" /></div>
@@ -122,13 +120,25 @@
         <div><img class="pic5 h-14" src="./Item (4).png" alt="maxdino" /></div>
       </div>
     </div>
-
-    <div class="box2 bg-white w-screen h-screen p-10 flex justify-center gap-[226px] flex-wrap mb--4">
-      <div class="mt-[228px] relative flex">
-        <img class="blue h-[364px] w--[280px] relative bottom-[205px] left-1 z-1" src="./Ellipse 990.png" alt="blue" />
-        <img class="yellow h-[260px] absolute bottom-[650px] left-[170px] pr-10" src="./Ellipse 991.png" alt="yellow"
-          srcset="" />
-        <img class="white h-[120px] absolute bottom-[600px] left-[305px]" src="./Group 5950.png" alt="white" />
+    
+    <div class="box2 bg-white m-1 p-20 flex justify-evenly flex-wrap mb--4">
+      <div class="box2-1 relative flex w-[668px] h-[600px]">
+        <img
+          class="blue h-[364px] w-[362px] absolute top-[20px] left-[200px] z-1"
+          src="./Ellipse 990.png"
+          alt="blue"
+        />
+        <img
+          class="yellow h-[260px] absolute top-[0px] right-0 pr-10"
+          src="./Ellipse 991.png"
+          alt="yellow"
+          srcset=""
+        />
+        <img
+          class="white h-[120px] absolute bottom-[300px] right-11"
+          src="./Group 5950.png"
+          alt="white"
+        />
       </div>
       <div class="box3 flex flex-col justify-start h-[220px] w-[340px] mt-4 gap-6">
         <h2 class="text-left text-4xl font-bold w-[400px]">
@@ -141,13 +151,14 @@
         </h6>
         <div class="btn mt-5">
           <button
-            class="h-[48px] w-[165px] flex items-center text-center justify-center bg-amber-500 text-white font-semibold text-lg rounded-lg">
+            class="h-[48px] w-[165px] flex items-center text-center justify-center bg-amber-500 text-white font-semibold text-lg rounded-lg"
+          >
             Get Started Today
           </button>
         </div>
       </div>
     </div>
-
+    
 
 
 
@@ -252,113 +263,21 @@
           </div>
         </div>
       </div>
-
-
-    <!-- Beam -->
-    <body class="p-0 m-0">
-      <div
-        class="w-screen h-screen flex justify-center items-center max-[600px]:w-[375px] max-[600px]:h-[1026px] max-[600px]:p-0 max-[600px]:ml-20 max-[600px]:my-20"
-      >
-       <div class = "w-[1420px] h-[499px] flex justify-evenly px-10 items-center max-[600px]:flex-col-reverse max-[600px]:m">
-        <!-- <div class = "w-[100%] h-[499px] flex justify-around"> -->
-          <div class = "w-[100%] h-[499px] flex items-end max-[600px]:justify-center max-[600px]:items-center relative">
-              <div class = "border border-none shadow-[black_-5px_5px_10px_-12px] p-10 bg-white rounded-2xl w-[675px] h-[350px] text-black flex flex-col max-[600px]:w-[327px] max-[600px]:h-[545px] max-[600px]:p-0 max-[600px]:static">
-                <div class="flex justify-between items-center pb-5">
-                  <!-- max-[600px]:flex-col -->
-                  <div class="flex justify-between items-center">
-                    <div class="bg-[#C4C4C4] rounded-[50%] z-10 w-[87px] h-[87px] max-[600px]:z-0"></div>
-                    <div class="flex flex-col p-5">
-                      <p class="text-2xl">Jaquon Hart</p>
-                      <p class="text-xl">Civil Engineer</p>
-                    </div>
-                  </div>
-                  <div class="pb-5">
-                    <div class = " text-[21px]"> 
-                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-                    </div>
-                  </div>
-                  <div class="text-[#6F6F76] text-2xl leading-[48px] w-[100%] h-[100%] max-[600px]:w-[267px] max-[600px]:h-[336px]">
-                    “With Edu, we’re able to easily track our performance in full
-                    detail. It’s become an essential tool for us to grow and engage with
-                    our audience.”
-              </div>
-              <div class="border border-none bg-[#FFA502] shadow-[#FFA502_-10px_25px_50px_-12px] rounded-2xl w-[695.27px] h-[344px] text-white p-10 
-                absolute bottom-[145px] left-[120px] z-10 max-[600px]:left-4 max-[600px]:bottom-[20px] max-[600px]:h-[545px] max-[600px]:w-[327px] max-[600px]:p-10 max-[600px]:z-0">
-                <!-- ^card2 orange-->
-                <div class="flex justify-between items-center pb-5 max-[600px]:flex-col">
-                  <!-- max-[600px]:flex-col -->
-                  <div class="flex justify-between items-center">
-                    <div class="bg-[#C4C4C4] rounded-[50%] z-10 w-[87px] h-[87px] max-[600px]:z-0"></div>
-                    <div class="flex flex-col p-5">
-                      <p class="text-2xl">Jaquon Hart</p>
-                      <p class="text-xl">Civil Engineer</p>
-                    </div>
-                  </div>
-                  <div class="pb-5 text-start">
-                    <div class = "text-[21px]"> 
-                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star pl-2"></i><i class="fa-solid fa-star pl-2"></i><i class="fa-solid fa-star pl-2"></i><i class="fa-solid fa-star pl-2"></i>
-                    </div>
-                  </div>
-                  </div>
-                <div class="text-white text-2xl leading-[48px] w-[100%] h-[100%] max-[600px]:w-[267px] max-[600px]:h-[336px]">
-                  “With Edu, we’re able to easily track our performance in full
-                  detail. It’s become an essential tool for us to grow and engage with
-                  our audience.”
-                </div>
-
-              </div>
-                <div class="flex flex-row absolute bottom-10 -right-[110px] w-[136px] justify-between max-[600px]:right-7 max-[600px]:w-[80px] max-[600px]:bottom-3">
-                  <div class="border-2 border-black rounded-[50%] z-10 w-[56px] h-[56px] flex justify-center max-[600px]:w-8 max-[600px]:h-8">
-                    <button class="text-[16px]">
-                      <i class="fa-solid fa-arrow-left"></i>
-                    </button>
-                  </div>
-                  <!-- ^button1 -->
-                  <div class = "border border-black bg-black rounded-[50%] z-10 w-[56px] h-[56px] flex justify-center max-[600px]:w-8 max-[600px]:h-8">
-                    <button class="text-[16px] text-white">
-                      <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                  </div>
-                  <!-- ^ button 2 -->
-                </div>
-                <!-- button ^ -->
-              </div>
-          </div>
-
-          <div class = "w-[453px] h-[312px] flex items-end max-[600px]:ml-24">
-
-            <div class ="w-[453px] h-[312px] flex flex-col max-[600px]:w-[327px] max-[600px]:h-[264px] max-[600px]:top-10">
-              <div class="text-[40px] h-[174px] font-bold leading-[58px] text-start max-[600px]:text-2xl max-[600px]:text-[24px] max-[600px]:leading-[34px] max-[600px]:w-[327px] max-[600px]:h-[68px]">
-                5000 Reviews from <br />
-                Our Successful Students!
-              </div>
-              <p class="text-[#6F6F76] text-lg font leading-9 py-5 h-[108px] max-[600px]:w-[327px] max-[600px]:h-[180px]">
-                Teractively recaptiualize intermandated e-commerce after sticky
-                applications. Dynamically reintermediate viral testing procedures
-                through technically sound.
-              </p>
-            </div>
-          </div>
-
-            <div
-          class="w-[453px] h-[312px] flex flex-col justify-center absolute right-1 max-[600px]:w-[327px] z-30 max-[600px]:h-[264px] max-[600px]:top-10"
-          >
-          </div>
-        <!-- </div> -->
-       </div>
-      </div>
-      
+     </section>
+          
+ <!-- Seation Beam, copy and paste from test naja -->
+    
       <!-- Seation kath -->
 
-      <footer class="box-border m-0 p-0">
-        <div class="flex relative items-center pt-[60px] pb-[60px] pl-[360px] gap-32 bg-[#2A2A31] w-[1920px]">
-          <p class="text-white font-[700] text-[40px]">
+      <footer class="box-border flex flex-col m-0 p-0">
+        <div id="footer1" class="flex flex-row max-[600px]:items-start max-[600px]:flex-col relative items-center pt-[60px] pb-[60px] max-[600px]:pl-10 pl-[360px] gap-32 bg-[#2A2A31] max-[600px]:w-[600px] w-[1920px]">
+          <p class="text-white flex flex-col font-[700] text-[40px]">
             Create Free Account<br />
             & Get Register
           </p>
 
-          <div class="flex absolute mt-[50px] ml-[340px]">
-            <img src="./arrow.png" />
+          <div class="flex absolute max-[600px]:absolute -top-14 w-28 h-20 mt-[50px] ml-[340px]">
+            <img class="flex absolute max-[600px]:top-64 top-32 max-[600px]:right-96 flex-row" src="./arrow.png" alt="arrow"/>
           </div>
 
           <button class="flex items-center justify-center w-34 p-3 text-[18px] text-white rounded-md bg-[#FFA502]">
@@ -367,8 +286,8 @@
         </div>
 
 
-        <div class="flex flex-col relative justify-center text-white items-center bg-black w-[1920px] h-[481px]">
-          <div class="flex justify-evenly items-start w-[1420px] m-5">
+        <div id="footer2" class="flex flex-col relative justify-center text-white items-center bg-black max-[600px]:w-[600px] w-[1920px] max-[600px]:h-[1000px] h-[481px]">
+          <div class="flex justify-evenly max-[600px]:flex-col max-[600px]:items-start items-start max-[600px]:w-[600px] w-[1420px] max-[600px]:ml-16 m-5">
             <div class="m-[-5px]">
               <img src="./Group 5888.png" alt="logo" />
               <p class="text-[#B3B3B3] text-[16px] font-[400] mb-[40px] m-[5px]">
