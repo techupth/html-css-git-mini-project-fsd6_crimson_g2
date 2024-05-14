@@ -54,7 +54,7 @@
 #menu {
   visibility: hidden;
 }
-* {
+section {
   font-size: calc(60% + 0.8vmin);
   margin: 0 auto;
 }
@@ -87,14 +87,17 @@
     align-items: flex-start;
     width: 200px;
   }
-  #header-main{
+  #header-main {
     width: 300px;
   }
-  #detail{
-    width: 215px;
+  #detail {
+    width: 327px;
+    height: 180px;
   }
-  .btn {
+  .btn-3 {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 205px;
+    height: 64px;
   }
 }
