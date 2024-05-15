@@ -1,89 +1,75 @@
 @media only screen and (max-width: 1280px) {
-   
-    nav {
-        width: 640px;
-    }
+  nav {
+    width: 640px;
+  }
 
-    nav a {
-        position: relative;
-        left: -250px;
-        
-    }
+  nav a {
+    position: relative;
+    left: -250px;
+  }
 
-    .HD {
-        font-size: 60px;
-    }
+  .HD {
+    font-size: 60px;
+  }
 
-    .pp {
-        font-size: 15px;
-        top: 320px;
-    }
+  .pp {
+    font-size: 15px;
+    top: 320px;
+  }
 
-    .btn {
-        top: 390px;
-    }
+  .btn {
+    top: 390px;
+  }
 
-    #menu {
-        visibility: visible;
-    }
+  #menu {
+    visibility: visible;
+  }
 
-    #nav-icon, .btn-1 {
-        display: none;
-    }
+  #nav-icon,
+  .btn-1 {
+    display: none;
+  }
 
-    .i {
-        visibility: collapse;
-    }
+  .i {
+  }
 
-    #title {
-        position: relative;
-        bottom: 100px;
-        right: 240px;
-    }
+  #title-2 {
+    /* position: relative; */
+    height: 500px;
+  }
 
-    #flex {
-        width: 600px;
-        flex-direction: column-reverse;
+  #flex {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
 
-    }
+  #pic-1 {
+    width: 400px;
+    top: 0x;
+    left: 80px;
+  }
 
-    #flex-1,
-    #flex-2 {
-        width: 600px;
+  #pic-2 {
+    width: 400px;
+    height: 150px;
+    left: 80px;
+    top: 260px;
+  }
 
-    }
+  #pic-3 {
+    text-align: center;
+    width: 150px;
+    top: 80px;
+    left: 90px;
+  }
 
-    #pic-1 {
-        width: 400px;
-        top: 200px;
-
-    }
-
-    #pic-2 {
-        width: 400px;
-        height: 150px;
-        left: 40px;
-        top: 400px;
-
-    }
-
-    #pic-3 {
-        text-align: center;
-        width: 150px;
-        top: 250px;
-        left: 10px;
-
-
-    }
-
-    #pic-4 {
-        width: 150px;
-        height: 200px;
-        left: 300px;
-        top: 200px;
-
-
-    }
-
-
+  #pic-4 {
+    width: 150px;
+    height: 200px;
+    left: 350px;
+    top: 40px;
+  }
+  #pic3 {
+    width: 100%;
+  }
 }
