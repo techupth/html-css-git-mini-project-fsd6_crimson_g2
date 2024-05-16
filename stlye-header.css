@@ -5,11 +5,15 @@
 
   nav a {
     position: relative;
-    left: -250px;
+    right: 250px;
   }
 
   .HD {
     font-size: 60px;
+  }
+  
+  .H1 {
+    width: 327px;
   }
 
   .pp {
@@ -33,13 +37,14 @@
     display: none;
   }
 
-  .i {
-  }
+
 
   #title-2 {
-    /* position: relative; */
+    position: relative;
     height: 450px;
     width: 400px;
+    right: 20px;
+    
   }
 
   #flex {
@@ -51,30 +56,37 @@
     width: 294.78px;
     height: 294.78px;
     top: 0;
-    left: 20px;
+    left: 50px;
   }
 
   #pic-2 {
     width: 339.69px;
     height: 86.68px;
-    left: 0;
-    top: 260px;
+    left: 40px;
+    top: 230px;
   }
 
   #pic-3 {
     text-align: center;
     width: 150px;
     top: 80px;
-    left: 0;
+    left: 10px;
   }
 
   #pic-4 {
     width: 150px;
     height: 200px;
-    left: 250px;
+    left: 200px;
     top: 40px;
   }
+  
   #pic3 {
     width: 90%;
   }
+}
+
+#content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
