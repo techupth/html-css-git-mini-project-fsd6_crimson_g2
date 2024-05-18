@@ -73,6 +73,8 @@ section {
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: -200px;
+    width:327px;
+    height: 100%;
   }
 
   .box2-1 {
@@ -85,10 +87,11 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 200px;
+    width: 327px;
+    
   }
   #header-main {
-    width: 300px;
+    width: 327px;
   }
   #detail {
     width: 327px;
