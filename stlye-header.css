@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1280px) {
+  nav {
+    width: 640px;
+  }
+
+  nav a {
+    position: relative;
+    right: 250px;
+  }
+
+  .HD {
+    font-size: 60px;
+  }
+
+  .H1 {
+    width: 327px;
+  }
+
+  .pp {
+    width: 327px;
+    height: 144px;
+    font-size: 18px;
+    line-height: 36px;
+    top: 320px;
+  }
+
+  .btn {
+    top: 390px;
+  }
+
+  #menu {
+    visibility: visible;
+  }
+
+  #nav-icon,
+  .btn-1 {
+    display: none;
+  }
+
+  #title-2 {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    /* right: 20px; */
+  }
+
+  #flex {
+    width: 400px;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  #pic-1 {
+    width: 294.78px;
+    height: 294.78px;
+    top: 0;
+    /* left: 50px; */
+  }
+
+  #pic-2 {
+    width: 339.69px;
+    height: 86.68px;
+    /* left: 40px; */
+    justify-content: center;
+    top: 230px;
+  }
+
+  #pic-3 {
+    text-align: center;
+    width: 150px;
+    top: 80px;
+    left: -10px;
+  }
+
+  #pic-4 {
+    width: 150px;
+    height: 200px;
+    left: 200px;
+    top: 40px;
+  }
+
+  #pic3 {
+    width: 90%;
+  }
+}
+
+#content-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
